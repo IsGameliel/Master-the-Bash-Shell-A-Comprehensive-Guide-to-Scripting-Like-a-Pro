@@ -1,4 +1,11 @@
-## Master the Bash Shell: A Comprehensive Guide to Scripting Like a Pro
+# Master the Bash Shell: A Comprehensive Guide to Scripting Like a Pro
+## Author 
+**Ibiso Eugene**<br>
+**[Twitter](https://twitter.com/ibiso_eugene)**<br>
+**[Facebook](https://www.facebook.com/Simvic226/)**<br>
+**[Instagram](https://www.instagram.com/eugene_gameliel/)**
+
+---
 
 **1. How to build a bash script**
 Course introduction<br>
@@ -11,6 +18,8 @@ Project: Backup Script<br>
 [Backup Script - Project Solution](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/How%20to%20build%20a%20bash%20script/backup_script.md)<br>
 [Adding scripts to your PATH](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/How%20to%20build%20a%20bash%20script/adding_script_to_path.md)<br>
 Section Summary<br>
+
+---
 
 **2. Variable and shell expansion**
 Section Introduction<br>
@@ -30,7 +39,7 @@ Brace Expansion<br>
 Brace Expansion - Quiz<br>
 Section Summary<br>
 
-
+---
 
 **3. How bash processes command lines**
 Section Introduction<br>
@@ -64,6 +73,8 @@ Worked Example 3<br>
 Problem Set<br>
 Section Summary<br>
 
+---
+
 **4. Requesting user input**
 Section Introduction<br>
 Positional Parameters<br>
@@ -83,6 +94,8 @@ Project: Select Command<br>
 Select Command Project Solution<br>
 Section Summary<br>
 
+---
+
 **5. Logic**
 Section Introduction<br>
 Chaining commands with List Operators<br>
@@ -100,6 +113,8 @@ Project: Case Statements<br>
 Case Statements - Project Solution<br>
 Section Summary<br>
 
+---
+
 **6. Processing options and reading files**
 Section Introduction<br>
 While loops<br>
@@ -111,6 +126,8 @@ Read-while loops - Project<br>
 Read-while loops - Project Solution<br>
 Section Summary<br>
 
+---
+
 **7. Arrays and for loops**
 Section Introduction<br>
 Working with Indexed Arrays<br>
@@ -121,6 +138,8 @@ Iterating over arrays with For Loops<br>
 For loops + Arrays project<br>
 For loops + Arrays Project - Solution<br>
 Section Summary<br>
+
+---
 
 **8. Debugging**<br>
 Section Introduction**<br>
@@ -135,7 +154,11 @@ Finding Help - Quiz**<br>
 4 questions**<br>
 Section Summary**<br>
 
+---
+
 **9. Script building assignment**<br>
+
+---
 
 **10. Scheduling and automation**<br>
 Section Introduction<br>
