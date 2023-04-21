@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Specify the source and destination directories
-source_dir="/path/to/source/directory"
+source_dir="/home/gameliel/Desktop/code with ibiso/Bash/How to build a bash script/"
+dest_dir="/home/gameliel/Desktop/code with ibiso/Bash/How to build a bash script/test_file"
 
 # Create the destination directory if it doesn't exist
 if [ ! -d "$dest_dir" ]; then
