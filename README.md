@@ -21,27 +21,28 @@ Section Summary<br>
 
 ---
 
-**2. Variable and shell expansion**
+**2. Variable and shell expansion**<br>
 Section Introduction<br>
-User-defined Variables and Parameter expansion<br>
-Shell Variables<br>
-Parameter Expansion Tricks<br>
+[User-defined Variables](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/User-defined_variables.md)<br>
+[Parameter expansion](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/parameter_expansion.md)<br>
+[Shell Variables](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/shell_variables.md)<br>
+[Parameter Expansion Tricks](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/parameter_expansion_tricks.md)<br>
 Parameter Expansion - Quiz<br>
-Command Substitution<br>
-Project: Command Substitution<br>
-Command Substitution - Project Solution<br>
-Arithmetic Expansion<br>
-Dealing with decimal numbers - the bc command<br>
+[Command Substitution](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/commandSubstitution.md)<br>
+[Project: Command Substitution](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/commandSubstitution_project.sh)<br>
+[Command Substitution - Project Solution](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/projectSolution.md)<br>
+[Arithmetic Expansion](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/arithemetic_expansion.md)<br>
+[Dealing with decimal numbers - the bc command](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/dealing_with_decimal_and_bc.md)<br>
 Arithmetic Expansion - Quiz<br>
-Tilde Expansion<br>
+[Tilde Expansion](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/Tilde%20Expansion.md)<br>
 Tilde Expansion - Quiz<br>
-Brace Expansion<br>
+[Brace Expansion](https://github.com/IsGameliel/Master-the-Bash-Shell-A-Comprehensive-Guide-to-Scripting-Like-a-Pro/blob/main/Variable%20and%20shell%20expansion/brace_expansion.md)<br>
 Brace Expansion - Quiz<br>
 Section Summary<br>
 
 ---
 
-**3. How bash processes command lines**
+**3. How bash processes command lines**<br>
 Section Introduction<br>
 How Bash Processes Command Lines - Overview<br>
 Quoting<br>
