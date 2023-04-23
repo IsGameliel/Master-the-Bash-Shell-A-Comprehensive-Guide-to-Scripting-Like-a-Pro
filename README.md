@@ -1,4 +1,4 @@
-# Master the Bash Shell: A Comprehensive Guide to Scripting Like a Pro
+# Mastering the Bash Shell: A Comprehensive Guide to Scripting Like a Pro
 ## Author 
 **Ibiso Eugene**<br>
 **[Twitter](https://twitter.com/ibiso_eugene)**<br>
