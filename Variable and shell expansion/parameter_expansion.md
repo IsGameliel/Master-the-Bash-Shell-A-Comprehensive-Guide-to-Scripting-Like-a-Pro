@@ -83,77 +83,75 @@ FOO="hello_world"
 echo "The substring of \$FOO starting at index 6 with length 5 is ${FOO:6:5}"   # expands to the substring of $FOO starting at index 6 with length
 
 ```
-```
 
-1. What is the syntax for parameter expansion in Bash?
-A) %
-B) $
-C) *
-D) #
+1. What is the syntax for parameter expansion in Bash?<br>
+B) $<br>
+A) %<br>
+C) *<br>
+D) #<br>
 
 Annswer: B
 
-2. Which option is used for expanding the length of a string?
-A) :p
-B) :u
-C) :l
-D) :q
+2. Which option is used for expanding the length of a string?<br>
+A) :p<br>
+B) :u<br>
+C) :l<br>
+D) :q<br>
 
 Answer: A
 
-3. What does the option :+ do in parameter expansion?
-A) It expands to a default value if the parameter is unset or null.
-B) It expands to the length of the parameter value.
-C) It expands to nothing if the parameter is unset or null.
-D) It expands to the parameter value with any leading zeros removed.
+3. What does the option :+ do in parameter expansion?<br>
+A) It expands to a default value if the parameter is unset or null.<br>
+B) It expands to the length of the parameter value.<br>
+C) It expands to nothing if the parameter is unset or null.<br>
+D) It expands to the parameter value with any leading zeros removed.<br>
 
 Answer: A
 
-4. Which option is used for removing a pattern from the beginning of a parameter value?
-A) /#
-B) /%
-C) #/
-D) %/
+4. Which option is used for removing a pattern from the beginning of a parameter value?<br>
+A) /#<br>
+B) /%<br>
+C) #/<br>
+D) %/<br>
 
 Answer: A
 
-5. What does the option :- do in parameter expansion?
-A) It expands to the value of the parameter if it is set and not null.
-B) It expands to a default value if the parameter is unset or null.
-C) It expands to nothing if the parameter is unset or null.
-D) It expands to the parameter value with any leading zeros removed.
+5. What does the option :- do in parameter expansion?<br>
+A) It expands to the value of the parameter if it is set and not null.<br>
+B) It expands to a default value if the parameter is unset or null.<br>
+C) It expands to nothing if the parameter is unset or null.<br>
+D) It expands to the parameter value with any leading zeros removed.<br>
 
 Answer: B
 
-6. Which option is used for removing a pattern from the end of a parameter value?
-A) /#
-B) /%
-C) #/
-D) %/
+6. Which option is used for removing a pattern from the end of a parameter value?<br>
+A) /#<br>
+B) /%<br>
+C) #/<br>
+D) %/<br>
 
 Answer: B
 
-7. What does the option :? do in parameter expansion?
-A) It expands to nothing if the parameter is unset or null.
-B) It expands to a default value if the parameter is unset or null.
-C) It expands to the length of the parameter value.
-D) It expands to the value of the parameter if it is set and not null.
+7. What does the option :? do in parameter expansion?<br>
+A) It expands to nothing if the parameter is unset or null.<br>
+B) It expands to a default value if the parameter is unset or null.<br>
+C) It expands to the length of the parameter value.<br>
+D) It expands to the value of the parameter if it is set and not null.<br>
 
 Answer: B
 
-8. Which option is used for substituting a value for a parameter value that matches a pattern?
-A) //
-B) /\
-C) \//
-D) \\
+8. Which option is used for substituting a value for a parameter value that matches a pattern?<br>
+A) //<br>
+B) /\<br>
+C) \//<br>
+D) \\<br>
 
 Answer: A
 
-9. What does the option := do in parameter expansion?
-A) It expands to a default value if the parameter is unset or null.
-B) It expands to nothing if the parameter is unset or null.
-C) It expands to the value of the parameter if it is set and not null.
-D) It assigns a value to the parameter if it is unset or null.
+9. What does the option := do in parameter expansion?<br>
+A) It expands to a default value if the parameter is unset or null.<br>
+B) It expands to nothing if the parameter is unset or null.<br>
+C) It expands to the value of the parameter if it is set and not null.<br>
+D) It assigns a value to the parameter if it is unset or null.<br>
 
 Answer: D
-```
