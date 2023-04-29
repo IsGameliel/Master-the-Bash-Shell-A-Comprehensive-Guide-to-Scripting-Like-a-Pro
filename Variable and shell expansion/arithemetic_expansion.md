@@ -53,46 +53,107 @@ You can also use variables, input/output redirection, and command substitutions 
 
 ## Quiz
 
-Sure, here's a quiz on Arithmetic Expansion in Bash:
+1. What is the result of the following arithmetic expansion in bash?
 
-1. What is Arithmetic Expansion in Bash?
+```
+$ echo $((2+3*4))
+```
+a) 20<br>
+b) 14<br>
+c) 18<br>
+d) 32<br>
 
-2. What is the syntax for Arithmetic Expansion in Bash?
+Answer: b) 14 (the multiplication takes precedence over the addition)
 
-3. How can you use Arithmetic Expansion to add two numbers in Bash?
+2. What is the result of the following arithmetic expansion in bash?
 
-4. How can you use Arithmetic Expansion to subtract two numbers in Bash?
+```
+$ echo $((10/3))
+```
 
-5. How can you use Arithmetic Expansion to multiply two numbers in Bash?
+a) 3.33<br>
+b) 3<br>
+c) 4<br>
+d) 3 with remainder 1<br>
 
-6. How can you use Arithmetic Expansion to divide two numbers in Bash?
+Answer: b) 3 (integer division in bash truncates the result)
 
-7. How can you use Arithmetic Expansion to find the remainder of a division operation in Bash?
+3. What is the result of the following arithmetic expansion in bash?
 
-8. How can you use Arithmetic Expansion to increment a variable by one in Bash?
+```
+$ echo $((7%3))
+```
 
-9. How can you use Arithmetic Expansion to decrement a variable by one in Bash?
+a) 3.5<br>
+b) 1<br>
+c) 2<br>
+d) 0<br>
 
-10. How can you use Arithmetic Expansion to perform bitwise operations in Bash?
+Answer: c) 2 (the modulus operator returns the remainder of the division)
 
-Answers:
+4. What is the result of the following arithmetic expansion in bash?
 
-1. Arithmetic Expansion in Bash is a way to perform arithmetic operations on numeric values.
+```
+$ echo $((3**2))
+```
 
-2. The syntax for Arithmetic Expansion in Bash is to enclose the arithmetic expression within double parentheses, like this: $((expression)).
+a) 6<br>
+b) 27<br>
+c) 9<br>
+d) 0<br>
 
-3. To add two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 + num2)).
+Answer: c) 9 (the double asterisk operator is the exponentiation operator)
 
-4. To subtract two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 - num2)).
+5. What is the result of the following arithmetic expansion in bash?
 
-5. To multiply two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 * num2)).
+```
+$ echo $((10-2*3))
+```
 
-6. To divide two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 / num2)).
+a) 6<br>
+b) 4<br>
+c) 8<br>
+d) 10<br>
 
-7. To find the remainder of a division operation using Arithmetic Expansion in Bash, you can use the syntax $((num1 % num2)).
+Answer: b) 4 (the multiplication takes precedence over the subtraction)
 
-8. To increment a variable by one using Arithmetic Expansion in Bash, you can use the syntax $((var++)).
+6. What is the result of the following arithmetic expansion in bash?
 
-9. To decrement a variable by one using Arithmetic Expansion in Bash, you can use the syntax $((var--)).
+```
+$ echo $((2*3+4))
+```
 
-10. To perform bitwise operations using Arithmetic Expansion in Bash, you can use operators like "&" (AND), "|" (OR), "~" (NOT), "<<" (left shift), and ">>" (right shift), inside the double parentheses. For example: $((num1 & num2)).
+a) 10<br>
+b) 14<br>
+c) 18<br>
+d) 24<br>
+
+Answer: b) 10 (the multiplication takes precedence over the addition)
+
+Quiz 7:
+
+What is the result of the following arithmetic expansion in bash?
+
+```
+$ echo $((10/3*3))
+```
+
+a) 10<br>
+b) 9<br>
+c) 12<br>
+d) 8<br>
+
+Answer: b) 9 (the integer division truncates the result to 3, which is then multiplied by 3)
+
+8. What is the result of the following arithmetic expansion in bash?
+
+```
+$ echo $((5+2*3/2-1))
+```
+
+a) 6<br>
+b) 5<br>
+c) 7<br>
+d) 8<br>
+
+Answer: b) 5 (the multiplication takes precedence over the division, which takes precedence over the addition and subtraction)
