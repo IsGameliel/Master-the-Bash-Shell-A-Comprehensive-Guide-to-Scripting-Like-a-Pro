@@ -82,7 +82,8 @@ echo "The length of \$FOO is ${#FOO}"   # expands to the length of the value of 
 FOO="hello_world"
 echo "The substring of \$FOO starting at index 6 with length 5 is ${FOO:6:5}"   # expands to the substring of $FOO starting at index 6 with length
 
-### Quiz
+```
+## Quiz
 
 1. What is the syntax for parameter expansion in Bash?
 A) %
