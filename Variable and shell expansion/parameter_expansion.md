@@ -143,10 +143,10 @@ D) It expands to the value of the parameter if it is set and not null.<br>
 Answer: B
 
 8. Which option is used for substituting a value for a parameter value that matches a pattern?<br>
-A) //<br>
+A) // <br>
 B) /\ <br>
-C) \//<br>
-D) \\<br>
+C) \// <br>
+D) \\ <br>
 
 Answer: A
 
