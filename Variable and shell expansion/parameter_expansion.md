@@ -84,6 +84,8 @@ echo "The substring of \$FOO starting at index 6 with length 5 is ${FOO:6:5}"   
 
 ```
 
+## Quiz time
+
 1. What is the syntax for parameter expansion in Bash?<br>
 B) $<br>
 A) %<br>
