@@ -144,7 +144,7 @@ Answer: B
 
 8. Which option is used for substituting a value for a parameter value that matches a pattern?<br>
 A) //<br>
-B) /\<br>
+B) /\ <br>
 C) \//<br>
 D) \\<br>
 
