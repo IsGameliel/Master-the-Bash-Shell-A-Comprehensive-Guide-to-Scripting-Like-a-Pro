@@ -36,44 +36,68 @@ This finds all files with the `.txt` extension in the "Documents" subdirectory o
 
 ## Quiz
 
-1. What is Arithmetic Expansion in Bash?
 
-2. What is the syntax for Arithmetic Expansion in Bash?
 
-3. How can you use Arithmetic Expansion to add two numbers in Bash?
+1. What is the command to expand a tilde (~) to the user's home directory in Bash?<br>
+a) cd ~<br>
+b) cd ~/home<br>
+c) cd /<br>
+d) cd ~/<br>
 
-4. How can you use Arithmetic Expansion to subtract two numbers in Bash?
+Answer: d) cd ~/
 
-5. How can you use Arithmetic Expansion to multiply two numbers in Bash?
+2. What is the purpose of tilde expansion in Bash?<br>
+a) To switch to the root directory<br>
+b) To expand the current directory<br>
+c) To expand a user's home directory<br>
+d) To create a new directory<br>
 
-6. How can you use Arithmetic Expansion to divide two numbers in Bash?
+Answer: c) To expand a user's home directory
 
-7. How can you use Arithmetic Expansion to find the remainder of a division operation in Bash?
+3. Which of the following is an example of using tilde expansion to create a new directory in the home directory?<br>
+a) mkdir /home/user/newdir<br>
+b) mkdir ~/newdir<br>
+c) mkdir newdir<br>
+d) mkdir ./newdir<br>
 
-8. How can you use Arithmetic Expansion to increment a variable by one in Bash?
+Answer: b) mkdir ~/newdir
 
-9. How can you use Arithmetic Expansion to decrement a variable by one in Bash?
+4. What is the command to expand a tilde to the home directory of a specific user in Bash?<br>
+a) cd ~username<br>
+b) cd ~/username<br>
+c) cd username<br>
+d) cd /username<br>
 
-10. How can you use Arithmetic Expansion to perform bitwise operations in Bash?
+Answer: a) cd ~username
 
-**Answers:**
+5. Which of the following is an example of using tilde expansion to specify a file path in the home directory?<br>
+a) cat /home/user/file.txt<br>
+b) cat ~/file.txt<br>
+c) cat file.txt<br>
+d) cat ./file.txt<br>
 
-1. Arithmetic Expansion in Bash is a way to perform arithmetic operations on numeric values.
+Answer: b) cat ~/file.txt
 
-2. The syntax for Arithmetic Expansion in Bash is to enclose the arithmetic expression within double parentheses, like this: $((expression)).
+6. What is the command to expand a tilde to the previous working directory in Bash?<br>
+a) cd ~-<br>
+b) cd ../<br>
+c) cd -<br>
+d) cd /<br>
 
-3. To add two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 + num2)).
+Answer: a) cd ~-
 
-4. To subtract two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 - num2)).
+7. Which of the following is an example of using tilde expansion to specify a file path in a subdirectory of the home directory?<br>
+a) cat /home/user/subdir/file.txt<br>
+b) cat ~/subdir/file.txt<br>
+c) cat file.txt<br>
+d) cat ./subdir/file.txt<br>
 
-5. To multiply two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 * num2)).
+Answer: b) cat ~/subdir/file.txt
 
-6. To divide two numbers using Arithmetic Expansion in Bash, you can use the syntax $((num1 / num2)).
+8. What is the command to list the contents of a user's home directory using tilde expansion?<br>
+a) ls ~/<br>
+b) ls /<br>
+c) ls ~<br>
+d) ls ~/home<br>
 
-7. To find the remainder of a division operation using Arithmetic Expansion in Bash, you can use the syntax $((num1 % num2)).
-
-8. To increment a variable by one using Arithmetic Expansion in Bash, you can use the syntax $((var++)).
-
-9. To decrement a variable by one using Arithmetic Expansion in Bash, you can use the syntax $((var--)).
-
-10. To perform bitwise operations using Arithmetic Expansion in Bash, you can use operators like "&" (AND), "|" (OR), "~" (NOT), "<<" (left shift), and ">>" (right shift), inside the double parentheses. For example: $((num1 & num2)).
+Answer: a) ls ~/

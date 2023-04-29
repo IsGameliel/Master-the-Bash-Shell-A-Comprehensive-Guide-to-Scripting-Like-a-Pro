@@ -128,7 +128,7 @@ b) 14<br>
 c) 18<br>
 d) 24<br>
 
-Answer: b) 10 (the multiplication takes precedence over the addition)
+Answer: a) 10 (the multiplication takes precedence over the addition)
 
 Quiz 7:
 
