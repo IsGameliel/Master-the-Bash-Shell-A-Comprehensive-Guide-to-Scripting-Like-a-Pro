@@ -83,7 +83,7 @@ FOO="hello_world"
 echo "The substring of \$FOO starting at index 6 with length 5 is ${FOO:6:5}"   # expands to the substring of $FOO starting at index 6 with length
 
 ```
-## Quiz
+```
 
 1. What is the syntax for parameter expansion in Bash?
 A) %
@@ -156,3 +156,4 @@ C) It expands to the value of the parameter if it is set and not null.
 D) It assigns a value to the parameter if it is unset or null.
 
 Answer: D
+```
