@@ -84,44 +84,74 @@ echo "The substring of \$FOO starting at index 6 with length 5 is ${FOO:6:5}"   
 
 ### Quiz
 
-1. What is parameter expansion in Bash?
+1. What is the syntax for parameter expansion in Bash?
+A) %
+B) $
+C) *
+D) #
 
-2. How can you use parameter expansion to get the length of a string variable in Bash?
+Annswer: B
 
-3. What does ${var:-default} do in Bash parameter expansion?
+2. Which option is used for expanding the length of a string?
+A) :p
+B) :u
+C) :l
+D) :q
 
-4. How can you use ${var#pattern} in Bash parameter expansion to remove a prefix from a string?
+Answer: A
 
-5. How can you use ${var%pattern} in Bash parameter expansion to remove a suffix from a string?
+3. What does the option :+ do in parameter expansion?
+A) It expands to a default value if the parameter is unset or null.
+B) It expands to the length of the parameter value.
+C) It expands to nothing if the parameter is unset or null.
+D) It expands to the parameter value with any leading zeros removed.
 
-6. What does ${var/pattern/replacement} do in Bash parameter expansion?
+Answer: A
 
-7. What does ${var//pattern/replacement} do in Bash parameter expansion?
+4. Which option is used for removing a pattern from the beginning of a parameter value?
+A) /#
+B) /%
+C) #/
+D) %/
 
-8. How can you use ${!prefix*} in Bash parameter expansion to get a list of all variables that start with a certain prefix?
+Answer: A
 
-9. What does ${var,,} do in Bash parameter expansion?
+5. What does the option :- do in parameter expansion?
+A) It expands to the value of the parameter if it is set and not null.
+B) It expands to a default value if the parameter is unset or null.
+C) It expands to nothing if the parameter is unset or null.
+D) It expands to the parameter value with any leading zeros removed.
 
-10. How can you use ${var##pattern} in Bash parameter expansion to remove a longest prefix from a string?
+Answer: B
 
-Answers:
+6. Which option is used for removing a pattern from the end of a parameter value?
+A) /#
+B) /%
+C) #/
+D) %/
 
-1. Parameter expansion is a way to manipulate and expand the values of variables in Bash by using special characters and syntax.
+Answer: B
 
-2. You can use the ${#var} syntax to get the length of a string variable in Bash.
+7. What does the option :? do in parameter expansion?
+A) It expands to nothing if the parameter is unset or null.
+B) It expands to a default value if the parameter is unset or null.
+C) It expands to the length of the parameter value.
+D) It expands to the value of the parameter if it is set and not null.
 
-3. ${var:-default} is a syntax in Bash parameter expansion that returns the value of "var" if it is set, otherwise it returns "default".
+Answer: B
 
-4. ${var#pattern} is a syntax in Bash parameter expansion that removes the shortest prefix matching "pattern" from the beginning of "var".
+8. Which option is used for substituting a value for a parameter value that matches a pattern?
+A) //
+B) /\
+C) \//
+D) \\
 
-5. ${var%pattern} is a syntax in Bash parameter expansion that removes the shortest suffix matching "pattern" from the end of "var".
+Answer: A
 
-6. ${var/pattern/replacement} is a syntax in Bash parameter expansion that replaces the first occurrence of "pattern" with "replacement" in "var".
+9. What does the option := do in parameter expansion?
+A) It expands to a default value if the parameter is unset or null.
+B) It expands to nothing if the parameter is unset or null.
+C) It expands to the value of the parameter if it is set and not null.
+D) It assigns a value to the parameter if it is unset or null.
 
-7. ${var//pattern/replacement} is a syntax in Bash parameter expansion that replaces all occurrences of "pattern" with "replacement" in "var".
-
-8. ${!prefix*} is a syntax in Bash parameter expansion that returns a list of all variables that start with "prefix".
-
-9. ${var,,} is a syntax in Bash parameter expansion that converts "var" to lowercase.
-
-10. ${var##pattern} is a syntax in Bash parameter expansion that removes the longest prefix matching "pattern" from the beginning of "var".
+Answer: D
