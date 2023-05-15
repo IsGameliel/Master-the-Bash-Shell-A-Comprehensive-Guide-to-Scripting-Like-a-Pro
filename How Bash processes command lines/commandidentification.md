@@ -26,12 +26,12 @@ In Bash, a command is an instruction given to the computer to perform a specific
    Example:
    
    ```
-   if [ -f file.txt ]; then       # Checks if the file.txt exists
-       echo "File exists"
-   fi
-   
-   if [ $x -eq 10 ]; then         # Checks if the variable x is equal to 10
-       echo "x is 10"
+   #!/bin/bash
+
+   number=5
+
+   if [ $number -gt 0 ]; then
+   echo "$number is positive"
    fi
    ```
    
@@ -40,13 +40,33 @@ In Bash, a command is an instruction given to the computer to perform a specific
    Example:
    
    ```
-   for i in {1..10}; do           # Loops through the numbers 1 to 10
-       echo $i
+   # for loop
+   #!/bin/bash
+
+   for i in {1..5}; do
+   echo "The value of i is: $i"
    done
    
-   while read line; do            # Reads a file line by line
-       echo $line
-   done < file.txt
+   # while loop 
+
+   count=1
+
+   while [ $count -le 5 ]; do
+   echo "The value of count is: $count"
+   count=$((count+1))
+   done
+
+   # do while loop
+
+   #!/bin/bash
+
+   number=1
+
+   while [ $number -le 5 ]; do
+   echo "The number is: $number"
+   number=$((number+1))
+   done
+
    ```
    
 5. Function commands: These commands define a reusable block of code that can be called multiple times.
@@ -54,7 +74,7 @@ In Bash, a command is an instruction given to the computer to perform a specific
    Example:
    
    ```
-   function greet() {             # Defines a function called greet
+  function greet() {             # Defines a function called greet
        echo "Hello, $1"
    }
    
