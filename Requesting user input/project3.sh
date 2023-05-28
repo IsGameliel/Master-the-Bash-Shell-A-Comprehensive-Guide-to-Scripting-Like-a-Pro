@@ -23,4 +23,7 @@ IFS="|"
 score=0
 time=10
 for question in "${questions[@]}"; do
-    ask_question
+    ask_question $question
+done
+
+echo "Your final score is: $score"

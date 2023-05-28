@@ -1,0 +1,2 @@
+myName=ibiso
+echo $myName

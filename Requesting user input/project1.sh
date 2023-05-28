@@ -15,7 +15,7 @@ case $op in
     result=$(($num1 * $num2))
     ;;
   "/")
-    result=$(($num1 / $num2))
+    result=$(echo "scale=2; $num1 / $num2" | bc)
     ;;
   *)
     echo "Invalid operator"

@@ -30,16 +30,6 @@ for fruit in "${my_array[@]}"; do
 done
 ```
 
-5. Using a loop to modify array elements:
-
-```
-for i in "${!my_array[@]}"; do
-    my_array[$i]="fruit: ${my_array[$i]}"
-done
-```
-
-In the last example, we use the `${!my_array[@]}` syntax to iterate over the indices of the array rather than the elements themselves. This allows us to modify each element in place.
-
 ## Quizes 
 Sure, here are 7 quiz questions related to indexed arrays in bash:
 

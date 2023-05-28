@@ -3,8 +3,6 @@
 # Display the menu
 while true
 do
-    echo "User Account Management"
-    echo "-----------------------"
     echo "1. Create a new user"
     echo "2. Delete an existing user"
     echo "3. List all users"
@@ -16,9 +14,9 @@ do
         1)
             read -p "Enter the username: " username
             read -p "Enter the password: " password
-            read -p "Enter the full name: " fullname
+            read -p "Enter the fullname: " fullname
             useradd -m -c "$fullname" -s /bin/bash "$username"
-            echo "$username:$password" | chpasswd
+            echo "$usernmae:$password" | chpasswd
             echo "User $username created"
             ;;
         2)
@@ -31,11 +29,11 @@ do
             cut -d: -f1 /etc/passwd
             ;;
         4)
-            echo "Exiting..."
+            echo "Exiting...."
             exit 0
             ;;
         *)
-            echo "Invalid choice. Please try again."
+            echo "invalid choice. please try again"
             ;;
     esac
 done
