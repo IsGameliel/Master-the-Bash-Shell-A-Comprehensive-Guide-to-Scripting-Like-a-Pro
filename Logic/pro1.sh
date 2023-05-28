@@ -13,16 +13,13 @@ do
   read -p "Guess the number between 1 and 10: " guess
 
   # Check if the guess is correct
-  if [ $guess -eq $number ]
-  then
-    echo "Congratulations, you guessed the number!"
-    exit 0
+  if [ $guess -eq $number ]; then
+	echo "Congratulations! you guessed the number"
+	exit 0
   else
-    echo "Sorry, try again."
-    attempts=$((attempts - 1))
-    echo "You have $attempts attempts left."
+	echo "Sorry try again."
+	attempts=$((attempts -1))
+	echo "You have $attempts attempts left."
   fi
 done
 
-echo "Sorry, you failed to guess the number. The number was $number."
-exit 1
