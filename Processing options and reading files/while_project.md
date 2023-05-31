@@ -1,31 +1,44 @@
-here is a brief overview of how to use a while loop in a bash script.
-
-In bash, a while loop allows you to repeatedly execute a block of code as long as a certain condition is true. The general syntax of a while loop in bash is as follows:
-
-```
-while [condition]
-do
-    # code to be executed repeatedly
-done
-```
-
-The `condition` is a test expression that is evaluated before each iteration of the loop. If the condition is true, the code block inside the loop is executed; if the condition is false, the loop exits and the code after the `done` keyword is executed.
-
-Here is an example of a bash script that uses a while loop to prompt the user for a number between 1 and 10, and then prints the number:
+## Number guessing game
 
 ```
 #!/bin/bash
 
-number=0
+# Project: Number Guessing Game
 
-while [ $number -lt 1 ] || [ $number -gt 10 ]
-do
-    read -p "Enter a number between 1 and 10: " number
+# Generate a random number between 1 and 100
+target=$((RANDOM % 100 + 1))
+
+echo "Welcome to the Number Guessing Game!"
+echo "I have chosen a number between 1 and 100."
+echo "Can you guess the number?"
+
+# Initialize the user's guess and the number of attempts
+guess=0
+attempts=0
+
+# Start the game loop
+while [[ $guess -ne $target ]]; do
+  # Read the user's input
+  read -p "Enter your guess: " guess
+
+  # Increment the number of attempts
+  ((attempts++))
+
+  # Check if the guess is too high, too low, or correct
+  if [[ $guess -gt $target ]]; then
+    echo "Too high!"
+  elif [[ $guess -lt $target ]]; then
+    echo "Too low!"
+  else
+    echo "Congratulations! You guessed the number in $attempts attempts."
+  fi
 done
-
-echo "You entered: $number"
 ```
 
-In this script, the condition for the while loop is `[ $number -lt 1 ] || [ $number -gt 10 ]`, which means the loop will continue to execute as long as the value of `$number` is less than 1 or greater than 10. Inside the loop, the `read` command prompts the user to enter a number, and the value is stored in the variable `$number`. If the number is not between 1 and 10, the loop continues to prompt the user until a valid number is entered. Finally, the script prints the number that was entered.
+Save the above code in a file, for example, `number_guessing_game.sh`. Then, make the script executable by running the command `chmod +x number_guessing_game.sh`.
 
-I hope this helps! Let me know if you have any other questions.
+To play the game, simply run the script by executing `./number_guessing_game.sh` in the terminal.
+
+In this project, the while loop continues until the user guesses the correct number. The user is prompted to enter their guess, and the script provides feedback if the guess is too high or too low. Once the user guesses the correct number, the loop ends, and the script displays the number of attempts made.
+
+Feel free to modify and enhance this project according to your requirements.
